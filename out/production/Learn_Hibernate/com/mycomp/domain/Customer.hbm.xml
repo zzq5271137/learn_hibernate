@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+    <!-- 如果类名和表名一致, table可以省略 -->
+    <!-- 如果没有该表, 会自动创建一个表 -->
+    <class name="com.mycomp.domain.Customer" table="customer">
+        <!-- 类中的主键, 需要跟数据库中的主键进行对应 -->
+        <id name="cust_id" column="cust_id">
+            <!-- 主键的生成策略 -->
+            <!-- 一般使用native或uuid -->
+            <generator class="native"/>
+
+            <!-- 有自然主键和代理主键 -->
+            <!-- 开发中尽量使用代理主键 -->
+        </id>
+
+        <!-- 建立类中的普通属性与数据库中字段的关联 -->
+        <!-- name代表类中的属性, column代表数据库中表的字段 -->
+        <!-- 如果两者相同, 可以省略column -->
+        <property name="cust_name" column="cust_name"/>
+        <property name="cust_source" column="cust_source"/>
+        <property name="cust_industry" column="cust_industry"/>
+        <property name="cust_level" column="cust_level"/>
+        <property name="cust_phone" column="cust_phone"/>
+        <property name="cust_mobile" column="cust_mobile"/>
+
+        <!-- 进行一对多的配置 -->
+        <!-- name: 此类中存放Linkman的Set的属性名称 -->
+        <!-- cascade: 级联的配置 -->
+        <!-- inverse: 是否放弃外键维护(true代表放弃) -->
+        <set name="linkmen" cascade="save-update, delete" inverse="true">
+            <key column="link_cust_id"/> <!-- 数据库中与当前这张表建立关系的那张表的外键名称 -->
+            <one-to-many class="com.mycomp.domain.Linkman"/> <!-- 程序中与此类建立关系的类名 -->
+        </set>
+    </class>
+</hibernate-mapping>

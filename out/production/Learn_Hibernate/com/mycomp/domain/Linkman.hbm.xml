@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+    <class name="com.mycomp.domain.Linkman" table="linkman">
+        <id name="link_id" column="link_id">
+            <generator class="native"/>
+        </id>
+
+        <property name="link_name" column="link_name"/>
+        <property name="link_gender" column="link_gender"/>
+        <property name="link_phone" column="link_phone"/>
+        <property name="link_mobile" column="link_mobile"/>
+        <property name="link_email" column="link_email"/>
+        <property name="link_qq" column="link_qq"/>
+        <property name="link_position" column="link_position"/>
+        <property name="link_memo" column="link_memo"/>
+
+        <!-- 外键不需要建立映射 -->
+        <!-- <property name="link_cust_id" column="link_cust_id"/> -->
+
+        <!-- name: 此类中存放Customer的属性名称 -->
+        <!-- class: 程序中与此类建立关系的类名 -->
+        <!-- column: 数据库中这张表里的外键名称 -->
+        <!-- lazy: 是否启用懒加载 -->
+        <many-to-one name="customer"
+                     class="com.mycomp.domain.Customer"
+                     column="link_cust_id"
+                     lazy="false"/>
+    </class>
+</hibernate-mapping>
