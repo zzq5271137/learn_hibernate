@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="35d3a966-1819-472e-a9fd-d711db4b3d88" name="Default Changelist" comment="" />
+    <list default="true" id="35d3a966-1819-472e-a9fd-d711db4b3d88" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/com/mycomp/domain/Customer.hbm.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/mycomp/domain/Customer.hbm.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/mycomp/domain/Linkman.hbm.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/mycomp/domain/Linkman.hbm.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/mycomp/domain/Role.hbm.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/mycomp/domain/Role.hbm.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/hibernate.cfg.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -312,6 +317,8 @@
       <workItem from="1581303825486" duration="9000" />
       <workItem from="1581303877115" duration="4000" />
       <workItem from="1581303909513" duration="1000" />
+      <workItem from="1581433361635" duration="339000" />
+      <workItem from="1581433724788" duration="5000" />
     </task>
     <servers />
   </component>
