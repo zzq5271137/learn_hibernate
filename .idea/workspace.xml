@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="35d3a966-1819-472e-a9fd-d711db4b3d88" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/out/production/Learn_Hibernate/com/mycomp/domain/Customer.hbm.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Learn_Hibernate/com/mycomp/domain/Customer.hbm.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Learn_Hibernate/com/mycomp/domain/Linkman.hbm.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Learn_Hibernate/com/mycomp/domain/Linkman.hbm.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Learn_Hibernate/com/mycomp/domain/Role.hbm.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Learn_Hibernate/com/mycomp/domain/Role.hbm.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Learn_Hibernate/com/mycomp/test/HibernateTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Learn_Hibernate/com/mycomp/test/HibernateTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Learn_Hibernate/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Learn_Hibernate/hibernate.cfg.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/mycomp/test/HibernateTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/mycomp/test/HibernateTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="35d3a966-1819-472e-a9fd-d711db4b3d88" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -328,6 +321,7 @@
       <workItem from="1581505051612" duration="1000" />
       <workItem from="1581507808506" duration="527000" />
       <workItem from="1581508343816" duration="9000" />
+      <workItem from="1581509407732" duration="17000" />
     </task>
     <servers />
   </component>
