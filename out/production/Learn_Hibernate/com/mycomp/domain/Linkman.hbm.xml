@@ -21,10 +21,12 @@
         <!-- 外键不需要建立映射 -->
         <!-- <property name="link_cust_id" column="link_cust_id"/> -->
 
-        <!-- name: 此类中存放Customer的属性名称 -->
-        <!-- class: 程序中与此类建立关系的类名 -->
-        <!-- column: 数据库中这张表里的外键名称 -->
-        <!-- lazy: 是否启用懒加载 -->
+        <!--
+            name: 此类中存放Customer的属性名称;
+            class: 程序中与此类建立关系的类名;
+            column: 数据库中这张表里的外键名称;
+            lazy: 是否启用懒加载;
+        -->
         <many-to-one name="customer"
                      class="com.mycomp.domain.Customer"
                      column="link_cust_id"

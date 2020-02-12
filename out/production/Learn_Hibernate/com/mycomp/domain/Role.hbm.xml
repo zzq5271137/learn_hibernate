@@ -12,13 +12,17 @@
         <property name="role_name" column="role_name"/>
         <property name="role_memo" column="role_memo"/>
 
-        <!-- 配置多对多关系 -->
-        <!-- name: 此类中存放User的Set的属性名称 -->
-        <!-- table: 多对多的中间表的表名 -->
+        <!--
+            配置多对多关系;
+            name: 此类中存放User的Set的属性名称;
+            table: 多对多的中间表的表名;
+        -->
         <set name="users" table="user_role" inverse="true">
             <key column="role_id"/> <!-- column: 多对多关系表中与此表关联的外键名称 -->
-            <!-- class: 程序中与此类建立关系的类名 -->
-            <!-- column: 与此表建立关系的那张表在中间表中的外键 -->
+            <!--
+                class: 程序中与此类建立关系的类名;
+                column: 与此表建立关系的那张表在中间表中的外键;
+            -->
             <many-to-many class="com.mycomp.domain.User" column="user_id"/>
         </set>
 

@@ -26,7 +26,7 @@ public class HibernateTest {
 
         // 编写代码
         Customer customer = new Customer();
-        customer.setCust_name("zzq");
+        customer.setCust_name("zzq233");
         customer.setCust_level("2");
 
         // 保存到数据库中

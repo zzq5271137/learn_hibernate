@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="35d3a966-1819-472e-a9fd-d711db4b3d88" name="Default Changelist" comment="" />
+    <list default="true" id="35d3a966-1819-472e-a9fd-d711db4b3d88" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/out/production/Learn_Hibernate/com/mycomp/domain/Customer.hbm.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Learn_Hibernate/com/mycomp/domain/Customer.hbm.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Learn_Hibernate/com/mycomp/domain/Linkman.hbm.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Learn_Hibernate/com/mycomp/domain/Linkman.hbm.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Learn_Hibernate/com/mycomp/domain/Role.hbm.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Learn_Hibernate/com/mycomp/domain/Role.hbm.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Learn_Hibernate/com/mycomp/test/HibernateTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Learn_Hibernate/com/mycomp/test/HibernateTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Learn_Hibernate/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Learn_Hibernate/hibernate.cfg.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/mycomp/test/HibernateTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/mycomp/test/HibernateTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -80,7 +87,7 @@
       <recent name="H:\IDEA_workspace\Learn_Hibernate\src" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.HibernateTest6.test6">
+  <component name="RunManager" selected="JUnit.HibernateTest.addOneCustomerTest">
     <configuration name="HibernateTest6.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Learn_Hibernate" />
       <extension name="coverage">
@@ -92,22 +99,6 @@
       <option name="PACKAGE_NAME" value="com.mycomp.test" />
       <option name="MAIN_CLASS_NAME" value="com.mycomp.test.HibernateTest6" />
       <option name="METHOD_NAME" value="test1" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HibernateTest6.test3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Learn_Hibernate" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.mycomp.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.mycomp.test" />
-      <option name="MAIN_CLASS_NAME" value="com.mycomp.test.HibernateTest6" />
-      <option name="METHOD_NAME" value="test3" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -156,6 +147,22 @@
       <option name="PACKAGE_NAME" value="com.mycomp.test" />
       <option name="MAIN_CLASS_NAME" value="com.mycomp.test.HibernateTest6" />
       <option name="METHOD_NAME" value="test6" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HibernateTest.addOneCustomerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Learn_Hibernate" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mycomp.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.mycomp.test" />
+      <option name="MAIN_CLASS_NAME" value="com.mycomp.test.HibernateTest" />
+      <option name="METHOD_NAME" value="addOneCustomerTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -267,11 +274,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.HibernateTest.addOneCustomerTest" />
         <item itemvalue="JUnit.HibernateTest6.test6" />
         <item itemvalue="JUnit.HibernateTest6.test5" />
         <item itemvalue="JUnit.HibernateTest6.test4" />
         <item itemvalue="JUnit.HibernateTest6.test1" />
-        <item itemvalue="JUnit.HibernateTest6.test3" />
       </list>
     </recent_temporary>
   </component>
@@ -319,6 +326,8 @@
       <workItem from="1581484071077" duration="3000" />
       <workItem from="1581504958710" duration="24000" />
       <workItem from="1581505051612" duration="1000" />
+      <workItem from="1581507808506" duration="527000" />
+      <workItem from="1581508343816" duration="9000" />
     </task>
     <servers />
   </component>
@@ -354,22 +363,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="560" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1581131441702" />
-    <state width="1493" height="408" key="GridCell.Tab.0.bottom" timestamp="1581226236928">
+    <state width="1493" height="408" key="GridCell.Tab.0.bottom" timestamp="1581508335760">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="408" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1581226236928" />
-    <state width="1493" height="408" key="GridCell.Tab.0.center" timestamp="1581226236928">
+    <state width="1493" height="408" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1581508335760" />
+    <state width="1493" height="408" key="GridCell.Tab.0.center" timestamp="1581508335760">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="408" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1581226236928" />
-    <state width="1493" height="408" key="GridCell.Tab.0.left" timestamp="1581226236928">
+    <state width="1493" height="408" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1581508335760" />
+    <state width="1493" height="408" key="GridCell.Tab.0.left" timestamp="1581508335760">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="408" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1581226236928" />
-    <state width="1493" height="408" key="GridCell.Tab.0.right" timestamp="1581226236928">
+    <state width="1493" height="408" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1581508335760" />
+    <state width="1493" height="408" key="GridCell.Tab.0.right" timestamp="1581508335760">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="408" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1581226236928" />
+    <state width="1493" height="408" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1581508335760" />
     <state width="1493" height="555" key="GridCell.Tab.1.bottom" timestamp="1581226236923">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
