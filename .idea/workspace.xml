@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="35d3a966-1819-472e-a9fd-d711db4b3d88" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/com/mycomp/domain/Customer.hbm.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/mycomp/domain/Customer.hbm.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/mycomp/domain/Linkman.hbm.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/mycomp/domain/Linkman.hbm.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/mycomp/domain/Role.hbm.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/mycomp/domain/Role.hbm.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/hibernate.cfg.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/课件/Hibernate基本使用.xmind" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/课件/Hibernate生成策略与缓存策略.xmind" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/课件/hibernate.pptx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/课件/一对多.xmind" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/课件/多对多关系.xmind" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/课件/查询方式.xmind" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +67,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/课件" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Facets" />
@@ -78,6 +80,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="H:\IDEA_workspace\Learn_Hibernate\课件" />
       <recent name="H:\IDEA_workspace\Learn_Hibernate" />
       <recent name="H:\IDEA_workspace\Learn_Hibernate\src\com\mycomp\domain" />
       <recent name="H:\IDEA_workspace\Learn_Hibernate\lib" />
@@ -319,6 +322,8 @@
       <workItem from="1581303909513" duration="1000" />
       <workItem from="1581433361635" duration="339000" />
       <workItem from="1581433724788" duration="5000" />
+      <workItem from="1581484009662" duration="39000" />
+      <workItem from="1581484071077" duration="3000" />
     </task>
     <servers />
   </component>
