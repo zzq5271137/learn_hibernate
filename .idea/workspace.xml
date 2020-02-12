@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="35d3a966-1819-472e-a9fd-d711db4b3d88" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/课件/Hibernate基本使用.xmind" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/Hibernate生成策略与缓存策略.xmind" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/hibernate.pptx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/一对多.xmind" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/多对多关系.xmind" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/课件/查询方式.xmind" afterDir="false" />
-    </list>
+    <list default="true" id="35d3a966-1819-472e-a9fd-d711db4b3d88" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -324,6 +317,8 @@
       <workItem from="1581433724788" duration="5000" />
       <workItem from="1581484009662" duration="39000" />
       <workItem from="1581484071077" duration="3000" />
+      <workItem from="1581504958710" duration="24000" />
+      <workItem from="1581505051612" duration="1000" />
     </task>
     <servers />
   </component>
